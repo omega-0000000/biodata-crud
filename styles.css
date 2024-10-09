@@ -1,0 +1,112 @@
+body {
+    font-family: 'Garamond', sans-serif;
+    background-color: #f0f8ff;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 600px;
+    margin: auto;
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #4A90E2;
+}
+
+.biodata {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-group {
+    margin-bottom: 15px;
+}
+
+label {
+    margin-bottom: 5px;
+    display: block;
+    font-weight: bold;
+}
+
+input, textarea, select {
+    width: 97%;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    transition: border 0.3s;
+}
+
+input:focus, textarea:focus, select:focus {
+    border: 2px solid #4A90E2;
+    outline: none;
+}
+
+button {
+    background-color: #4A90E2;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #357ABD;
+}
+
+.result {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #e9f5ff;
+    border: 1px solid #4A90E2;
+    border-radius: 5px;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+.table th, .table td {
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: left;
+}
+
+.table th {
+    background-color: #4A90E2;
+    color: white;
+}
+
+.student {
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0;
+}
+
+.student:last-child {
+    border: none;
+}
+
+.student p {
+    margin: 5px 0;
+}
+
+.student button {
+    margin-right: 10px;
+    padding: 5px;
+    background-color: #FF5733;
+}
+
+.student button:hover {
+    background-color: #C70039;
+}

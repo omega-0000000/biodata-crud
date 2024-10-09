@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biodata Siswa</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Biodata Siswa</h1>
+        <div class="biodata">
+            <div class="input-group">
+                <label for="name">Nama:</label>
+                <input type="text" id="name" placeholder="Masukkan Nama">
+            </div>
+            <div class="input-group">
+                <label for="dob">Tanggal Lahir:</label>
+                <input type="date" id="dob">
+            </div>
+            <div class="input-group">
+                <label for="address">Alamat:</label>
+                <textarea id="address" placeholder="Masukkan Alamat"></textarea>
+            </div>
+            <div class="input-group">
+                <label for="gender">Jenis Kelamin:</label>
+                <select id="gender">
+                    <option value="laki-laki">Laki-laki</option>
+                    <option value="perempuan">Perempuan</option>
+                </select>
+            </div>
+            <div class="input-group">
+                <label for="class">Kelas:</label>
+                <input type="text" id="class" placeholder="Masukkan Kelas">
+            </div>
+            <button id="saveButton">Simpan</button>
+        </div>
+
+        <h2>Data Siswa</h2>
+        <div id="result" class="result"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
